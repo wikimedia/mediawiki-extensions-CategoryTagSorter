@@ -1,0 +1,29 @@
+CategoryTagSorter - alphabetizes category links at the bottom of an article
+
+
+== Description ==
+
+MediaWiki typically shows the list of category links in the order in which they appear
+in the article. For articles with many categories it can become hard to find the category
+you're looking for. This extension simply alphabetizes those links. The sorting is 
+ascii-betical, but usually this works out OK as most wikis are configured to have the 
+first letter of a title be uppercase (see $wgCapitolLinks.)
+
+This extension adds a user-preference for those users who enjoy searching aimlessly through
+lists of categories. 
+
+This extension was written originally for Vistawiki, the internal documentation
+site for Vistaprint Inc. 
+
+
+== Installation ==
+
+Install this extension like any other extension, by adding a line in LocalSettings.php
+like this:
+
+ require_once( "$IP/extensions/CategoryTagSorter/CategoryTagSorter.php" );
+
+
+== See also ==
+* http://mediawiki.org/wiki/Extension:CategoryTagSorter
+* http://mediawiki.org/wiki/Category:Vistaprint_extensions
