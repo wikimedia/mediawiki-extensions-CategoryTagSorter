@@ -26,7 +26,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'tog-categorysortdisable' => 'Do not sort category links in pages (display in default MediaWiki order)',
-	'categorytagsorter-desc' => 'Sorts the category links when displaying a page for easy reading.',
+	'categorytagsorter-desc' => 'Sorts the category links when displaying a page for easy reading',
 );
 
 /** Message documentation (Message documentation)
