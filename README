@@ -10,7 +10,7 @@ category links. The sorting is ascii-betical, which usually works out OK as most
 configured to have the first letter of a title be uppercase (see $wgCapitalLinks.)
 
 This extension adds a user preference for those users who prefer MediaWiki's default
-behavior (and who enjoy searching aimlessly through lists of categories). 
+behavior (and who enjoy searching aimlessly through lists of categories).
 
 
 == Installation ==
