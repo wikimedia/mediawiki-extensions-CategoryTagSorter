@@ -18,20 +18,16 @@
  * @ingroup Extensions
  */
 
-
 $messages = array();
-
 
 /**
  * English
  *
  */
 $messages['en'] = array(
-	'tog-categorysortdisable' => 'Do not sort category links in articles (display in default MediaWiki order)',
-	'categorytagsorter-desc' => 'Sorts the category links when displaying an article for easy reading.',
+	'tog-categorysortdisable' => 'Do not sort category links in pages (display in default MediaWiki order)',
+	'categorytagsorter-desc' => 'Sorts the category links when displaying a page for easy reading.',
 );
-
-
 
 /**
  * Message documentation
@@ -39,6 +35,6 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'tog-categorysortdisable' => 'Displayed next to the user-preference checkbox for enabling/disabling alphabetical sorting of category links.',
-	'categorytagsorter-desc' => 'The description of the extension that appears on Special:Version',
+	'categorytagsorter-desc' => '{{desc|name=CategoryTagSorter|url=https://www.mediawiki.org/wiki/Extension:CategoryTagSorter}}',
 );
 
