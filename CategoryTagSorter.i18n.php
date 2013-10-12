@@ -52,10 +52,42 @@ $messages['gl'] = array(
 	'categorytagsorter-desc' => 'Ordena as ligazóns de categoría ao mostrar unha páxina para unha lectura máis fácil.',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'tog-categorysortdisable' => 'ページ内のカテゴリリンクの並べ替えをしない (MediaWiki の既定の並び順で表示)',
+	'categorytagsorter-desc' => 'ページを表示する際に読みやすくするためにカテゴリリンクを並べ替える',
+);
+
+/** Korean (한국어)
+ * @author Hym411
+ */
+$messages['ko'] = array(
+	'tog-categorysortdisable' => '분류를 문서별로 정리하지 않습니다. (미디어위키 설정에 따릅니다)',
+	'categorytagsorter-desc' => '페이지를 볼 때 분류를 읽기 쉽게 정리합니다.',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'tog-categorysortdisable' => 'Не ги подредувај категориските врски во страниците (прикажувај ги по стандардниот ресодлед на МедијаВики)',
+	'categorytagsorter-desc' => 'Ги подредува категориските врски при приказ на страница за лесен испис.',
+);
+
 /** Russian (русский)
  * @author Okras
  */
 $messages['ru'] = array(
 	'tog-categorysortdisable' => 'Не сортировать ссылки категорий на страницах (отображать в порядке, установленном в MediaWiki по умолчанию)',
 	'categorytagsorter-desc' => 'Сортирует ссылки категорий на странице для более лёгкого восприятия.',
+);
+
+/** Ukrainian (українська)
+ * @author Andriykopanytsia
+ */
+$messages['uk'] = array(
+	'tog-categorysortdisable' => 'Не сортувати посилання категорій на сторінках (відображати у типовому порядку, встановленому у MediaWiki)',
+	'categorytagsorter-desc' => 'Сортує посилань категорій при відображенні сторінки для легкого читання.',
 );
