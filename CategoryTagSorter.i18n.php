@@ -44,6 +44,14 @@ $messages['de'] = array(
 	'categorytagsorter-desc' => 'Sortiert die Kategorielinks beim Anzeigen einer Seite zum einfachen Lesen.',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'tog-categorysortdisable' => 'Ne pas trier les liens de catégorie dans les pages (afficher par défaut dans l’ordre de MédiaWiki)',
+	'categorytagsorter-desc' => 'Trie les liens de catégorie lors de l’affichage d’une page pour une lecture plus facile',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
