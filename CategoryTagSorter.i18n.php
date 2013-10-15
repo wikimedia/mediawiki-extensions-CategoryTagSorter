@@ -84,6 +84,14 @@ $messages['mk'] = array(
 	'categorytagsorter-desc' => 'Ги подредува категориските врски при приказ на страница за лесен испис.',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'tog-categorysortdisable' => "Categoriekoppelingen in pagina's niet sorteren (weergeven in standaard volgorde van MediaWiki)",
+	'categorytagsorter-desc' => 'Sorteert de categoriekoppelingen bij het weergeven van een pagina voor eenvoudig lezen',
+);
+
 /** Russian (русский)
  * @author Okras
  */
