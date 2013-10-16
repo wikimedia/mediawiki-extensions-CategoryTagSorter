@@ -36,6 +36,14 @@ $messages['qqq'] = array(
 	'categorytagsorter-desc' => '{{desc|name=CategoryTagSorter|url=https://www.mediawiki.org/wiki/Extension:CategoryTagSorter}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'tog-categorysortdisable' => 'Nun ordenar los enllaces de categoría nes páxines (ver col orde predetermináu de MediaWiki)',
+	'categorytagsorter-desc' => 'Ordenar los enllaces de categoríes al ver una páxina pa facilitar la llectura.',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -74,6 +82,14 @@ $messages['ja'] = array(
 $messages['ko'] = array(
 	'tog-categorysortdisable' => '분류를 문서별로 정리하지 않습니다. (미디어위키 설정에 따릅니다)',
 	'categorytagsorter-desc' => '페이지를 볼 때 분류를 읽기 쉽게 정리합니다.',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'tog-categorysortdisable' => 'Kategorielinken op de Säiten net zortéieren (an der Standard-MediaWiki-Reiefolleg weisen)',
+	'categorytagsorter-desc' => "Zortéiert d'Kategorie-Linken wann eng Säit fir 'einfach' ze liese gewise gëtt",
 );
 
 /** Macedonian (македонски)
