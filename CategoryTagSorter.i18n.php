@@ -68,6 +68,22 @@ $messages['gl'] = array(
 	'categorytagsorter-desc' => 'Ordena as ligazóns de categoría ao mostrar unha páxina para unha lectura máis fácil.',
 );
 
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'tog-categorysortdisable' => 'Non ordinar ligamines de categoria in paginas (presentar los in le ordine predefinite de MediaWiki)',
+	'categorytagsorter-desc' => 'Ordina le ligamines de categoria durante le presentation de un pagina pro lectura facile',
+);
+
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'tog-categorysortdisable' => "Non ordinare le categorie nelle pagine (mostra nell'ordine predefinito di MediaWiki)",
+	'categorytagsorter-desc' => 'Ordina le categorie quando si visualizza una pagina per facilitarne la lettura',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
@@ -114,6 +130,14 @@ $messages['nl'] = array(
 $messages['ru'] = array(
 	'tog-categorysortdisable' => 'Не сортировать ссылки категорий на страницах (отображать в порядке, установленном в MediaWiki по умолчанию)',
 	'categorytagsorter-desc' => 'Сортирует ссылки категорий на странице для более лёгкого восприятия.',
+);
+
+/** Swedish (svenska)
+ * @author LittleGun
+ */
+$messages['sv'] = array(
+	'tog-categorysortdisable' => 'Sortera inte kategorilänkar i sidor (visa i MediaWikis standardordning)',
+	'categorytagsorter-desc' => 'Sorterar kategorilänkarna när en sida visas som lättläst',
 );
 
 /** Ukrainian (українська)
