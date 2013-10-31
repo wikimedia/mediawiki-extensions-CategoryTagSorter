@@ -44,12 +44,28 @@ $messages['ast'] = array(
 	'categorytagsorter-desc' => 'Ordenar los enllaces de categoríes al ver una páxina pa facilitar la llectura.',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'tog-categorysortdisable' => 'Dae salansanon an mga kasugpunan nin kategoriya sa mga pahina (ipahiling an pasurunod an panugmad na Mediawiki)',
+	'categorytagsorter-desc' => 'Minasalansan kan mga kasugpunan nin kategoriya kunsoarin ipinapahiling an sarong pahina para sa masayunon na pagbabasa',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
 $messages['de'] = array(
 	'tog-categorysortdisable' => 'Kategorielinks in Seiten nicht sortieren (in Standard-MediaWiki-Reihenfolge anzeigen)',
 	'categorytagsorter-desc' => 'Sortiert die Kategorielinks beim Anzeigen einer Seite zum einfachen Lesen.',
+);
+
+/** Spanish (español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'tog-categorysortdisable' => 'No ordenar los enlaces de categorías en las páginas (mostrar en el orden predeterminado de MediaWiki)',
+	'categorytagsorter-desc' => 'Ordena los enlaces de las categorías al mostrar una página para facilitar la lectura',
 );
 
 /** French (français)
@@ -122,6 +138,14 @@ $messages['mk'] = array(
 $messages['nl'] = array(
 	'tog-categorysortdisable' => "Categoriekoppelingen in pagina's niet sorteren (weergeven in standaard volgorde van MediaWiki)",
 	'categorytagsorter-desc' => 'Sorteert de categoriekoppelingen bij het weergeven van een pagina voor eenvoudig lezen',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'tog-categorysortdisable' => 'Triar pas los ligams de categoria dins las paginas (afichar per defaut dins l’òrdre de MediaWiki)',
+	'categorytagsorter-desc' => 'Tria los ligams de categoria al moment de l’afichatge d’una pagina per una lectura mai aisida',
 );
 
 /** Russian (русский)
