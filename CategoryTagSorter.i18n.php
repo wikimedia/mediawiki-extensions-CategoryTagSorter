@@ -171,3 +171,11 @@ $messages['uk'] = array(
 	'tog-categorysortdisable' => 'Не сортувати посилання категорій на сторінках (відображати у типовому порядку, встановленому у MediaWiki)',
 	'categorytagsorter-desc' => 'Сортує посилань категорій при відображенні сторінки для легкого читання.',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'tog-categorysortdisable' => '不排序页面中的分类链接（显示为默认的MediaWiki顺序）',
+	'categorytagsorter-desc' => '显示页面时排序分类链接以便阅读',
+);
