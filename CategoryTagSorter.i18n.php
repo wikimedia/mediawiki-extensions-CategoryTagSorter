@@ -84,6 +84,14 @@ $messages['gl'] = array(
 	'categorytagsorter-desc' => 'Ordena as ligazóns de categoría ao mostrar unha páxina para unha lectura máis fácil.',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'tog-categorysortdisable' => 'Kategorijowe wotkazy w stronach njesortěrować (w standardnym porjedźe MediaWiki zwobraznić)',
+	'categorytagsorter-desc' => 'Sortěruje kategorijowe wotkazy, hdyž so strona za lochke čitanje zwobraznja',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
