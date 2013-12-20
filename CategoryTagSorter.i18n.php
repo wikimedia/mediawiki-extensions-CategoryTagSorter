@@ -60,6 +60,14 @@ $messages['de'] = array(
 	'categorytagsorter-desc' => 'Sortiert die Kategorielinks beim Anzeigen einer Seite zum einfachen Lesen.',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'tog-categorysortdisable' => 'Kategorijowe wótkaze na bokach njesortěrowaś (w standardnem pórěźe MediaWiki zwobrazniś)',
+	'categorytagsorter-desc' => 'Sortěruje kategorijowe wótkaze, gaž bok zwobraznja se za lažke cytanje',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  */
