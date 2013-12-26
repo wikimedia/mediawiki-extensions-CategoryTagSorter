@@ -76,6 +76,14 @@ $messages['es'] = array(
 	'categorytagsorter-desc' => 'Ordena los enlaces de las categorías al mostrar una página para facilitar la lectura',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'tog-categorysortdisable' => 'دستهٔ اتصال‌ها را در صفحه‌های (نمایش داده شده در دستورالعمل پیش‌فرض مدیاویکی) تفکیک نکنید',
+	'categorytagsorter-desc' => 'تفکیک اتصالات دسته هنگام نمایش یک صفحه برای خواندن آسان',
+);
+
 /** French (français)
  * @author Gomoko
  */
