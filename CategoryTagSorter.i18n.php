@@ -134,10 +134,11 @@ $messages['ja'] = array(
 
 /** Korean (한국어)
  * @author Hym411
+ * @author 아라
  */
 $messages['ko'] = array(
 	'tog-categorysortdisable' => '분류를 문서별로 정리하지 않습니다. (미디어위키 설정에 따릅니다)',
-	'categorytagsorter-desc' => '페이지를 볼 때 분류를 읽기 쉽게 정리합니다.',
+	'categorytagsorter-desc' => '페이지를 볼 때 분류를 읽기 쉽게 정리합니다',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
