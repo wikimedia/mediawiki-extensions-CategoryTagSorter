@@ -52,6 +52,13 @@ $messages['bcl'] = array(
 	'categorytagsorter-desc' => 'Minasalansan kan mga kasugpunan nin kategoriya kunsoarin ipinapahiling an sarong pahina para sa masayunon na pagbabasa',
 );
 
+/** Breton (brezhoneg)
+ * @author Fohanno
+ */
+$messages['br'] = array(
+	'categorytagsorter-desc' => 'Rankañ al liammoù rummad pa vez diskouezet ur bajenn evit aesaat al lenn',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
