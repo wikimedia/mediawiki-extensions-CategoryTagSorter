@@ -180,6 +180,14 @@ $messages['oc'] = array(
 	'categorytagsorter-desc' => 'Tria los ligams de categoria al moment de l’afichatge d’una pagina per una lectura mai aisida',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'tog-categorysortdisable' => "No arrengà le categorije ca appondane jndr'à le pàggene (fa 'ndrucà l'ordine de base de MediaUicchi)",
+	'categorytagsorter-desc' => "Arranghe le collegaminde a le categorije quanne face 'ndrucà 'na pàgene pe facilità de letture",
+);
+
 /** Russian (русский)
  * @author Okras
  */
