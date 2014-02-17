@@ -180,6 +180,14 @@ $messages['oc'] = array(
 	'categorytagsorter-desc' => 'Tria los ligams de categoria al moment de l’afichatge d’una pagina per una lectura mai aisida',
 );
 
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'tog-categorysortdisable' => 'Nie sortuje linków kategorii na stronach (wyświetlanie w kolejności domyślnej MediaWiki)',
+	'categorytagsorter-desc' => 'Sortuje linki kategorii podczas wyświetlania strony, aby ułatwić czytanie',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
