@@ -107,6 +107,14 @@ $messages['gl'] = array(
 	'categorytagsorter-desc' => 'Ordena as ligazóns de categoría ao mostrar unha páxina para unha lectura máis fácil.',
 );
 
+/** Hebrew (עברית)
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'tog-categorysortdisable' => 'לא למיין קישורים לקטגוריה בדפים (מוצג בסדר אקראי של מדיה־ויקי)',
+	'categorytagsorter-desc' => 'ממיין את הקישורים לקטגוריה כאשר מציגים דף להקלת הקריאה',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
@@ -146,6 +154,14 @@ $messages['ja'] = array(
 $messages['ko'] = array(
 	'tog-categorysortdisable' => '분류를 문서별로 정리하지 않습니다. (미디어위키 설정에 따릅니다)',
 	'categorytagsorter-desc' => '페이지를 볼 때 분류를 읽기 쉽게 정리합니다',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'tog-categorysortdisable' => 'Donn de Saachjroppe en de Sigge nit zoteere. Zeisch se en de schtandattmääßejje Reijefollsch vum Meedejahwikki.',
+	'categorytagsorter-desc' => 'Zoteer de Lenks op de Saachjroppe beim Siggeaanzeije, öm se leischter lässe ze künne.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
