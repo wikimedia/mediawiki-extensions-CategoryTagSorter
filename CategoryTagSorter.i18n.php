@@ -204,6 +204,14 @@ $messages['pl'] = array(
 	'categorytagsorter-desc' => 'Sortuje linki kategorii podczas wyświetlania strony, aby ułatwić czytanie',
 );
 
+/** Portuguese (português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'tog-categorysortdisable' => 'Não ordenar os links de categorias nas páginas (apresentar na ordem padrão do MediaWiki)',
+	'categorytagsorter-desc' => 'Ao apresentar as páginas, ordena os links de categorias para facilitar a sua leitura',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
