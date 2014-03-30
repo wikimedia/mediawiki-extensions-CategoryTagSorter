@@ -51,7 +51,7 @@ $wgExtensionCredits['other'][] = array(
 	),
 	'url' => 'http://mediawiki.org/wiki/Extension:CategoryTagSorter',
 	'descriptionmsg' => 'categorytagsorter-desc',
-	'version' => '0.2',
+	'version' => '0.3.0',
 );
 
 /**
@@ -65,6 +65,7 @@ $wgAutoloadClasses['CategoryTagSorter'] = __DIR__ . '/CategoryTagSorter_body.php
  * Internationalization/localization
  *
  */
+$wgMessagesDirs['CategoryTagSorter'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['CategoryTagSorter'] = __DIR__ . '/CategoryTagSorter.i18n.php';
 
 
