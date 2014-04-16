@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hym411",
-            "아라"
-        ]
-    },
-    "tog-categorysortdisable": "분류를 문서별로 정리하지 않습니다. (미디어위키 설정에 따릅니다)",
-    "categorytagsorter-desc": "페이지를 볼 때 분류를 읽기 쉽게 정리합니다"
+	"@metadata": {
+		"authors": [
+			"Hym411",
+			"아라"
+		]
+	},
+	"tog-categorysortdisable": "분류를 문서별로 정리하지 않습니다. (미디어위키 설정에 따릅니다)",
+	"categorytagsorter-desc": "페이지를 볼 때 분류를 읽기 쉽게 정리합니다"
 }

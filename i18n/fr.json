@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko"
-        ]
-    },
-    "tog-categorysortdisable": "Ne pas trier les liens de catégorie dans les pages (afficher par défaut dans l’ordre de MédiaWiki)",
-    "categorytagsorter-desc": "Trie les liens de catégorie lors de l’affichage d’une page pour une lecture plus facile"
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"tog-categorysortdisable": "Ne pas trier les liens de catégorie dans les pages (afficher par défaut dans l’ordre de MédiaWiki)",
+	"categorytagsorter-desc": "Trie les liens de catégorie lors de l’affichage d’une page pour une lecture plus facile"
 }
