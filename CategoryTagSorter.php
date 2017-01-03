@@ -46,10 +46,10 @@ EOT;
 $wgExtensionCredits['other'][] = array(
 	'name' => 'CategoryTagSorter',
 	'author' => array(
-		'[http://mediawiki.org/wiki/User:Maiden_taiwan Dan Barrett]',
-		'[http://mediawiki.org/wiki/User:AlephNull Daniel Renfro]',
+		'[https://www.mediawiki.org/wiki/User:Maiden_taiwan Dan Barrett]',
+		'[https://www.mediawiki.org/wiki/User:AlephNull Daniel Renfro]',
 	),
-	'url' => 'http://mediawiki.org/wiki/Extension:CategoryTagSorter',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:CategoryTagSorter',
 	'descriptionmsg' => 'categorytagsorter-desc',
 	'version' => '0.3.0',
 );
