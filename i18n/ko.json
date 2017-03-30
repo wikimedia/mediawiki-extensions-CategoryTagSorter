@@ -6,6 +6,6 @@
 			"Revi"
 		]
 	},
-	"tog-categorysortdisable": "분류를 문서별로 정리하지 않습니다. (미디어위키 설정에 따릅니다)",
-	"categorytagsorter-desc": "페이지를 볼 때 분류를 읽기 쉽게 정리합니다"
+	"tog-categorysortdisable": "문서 안의 분류를 문서별로 정렬하지 않습니다 (기본 미디어위키 설정에 따라 표시합니다)",
+	"categorytagsorter-desc": "문서를 표시할 때 분류 링크를 읽기 쉽게 정리합니다"
 }
