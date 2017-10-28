@@ -66,7 +66,6 @@ $wgAutoloadClasses['CategoryTagSorter'] = __DIR__ . '/CategoryTagSorter_body.php
  *
  */
 $wgMessagesDirs['CategoryTagSorter'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['CategoryTagSorter'] = __DIR__ . '/CategoryTagSorter.i18n.php';
 
 
 
