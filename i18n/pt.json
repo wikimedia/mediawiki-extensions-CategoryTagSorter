@@ -4,6 +4,6 @@
 			"Hamilton Abreu"
 		]
 	},
-	"tog-categorysortdisable": "Não ordenar os links de categorias nas páginas (apresentar na ordem padrão do MediaWiki)",
-	"categorytagsorter-desc": "Ao apresentar as páginas, ordena os links de categorias para facilitar a sua leitura"
+	"tog-categorysortdisable": "Não ordenar as hiperligações das categorias nas páginas (apresentar na ordem padrão do MediaWiki)",
+	"categorytagsorter-desc": "Ao apresentar as páginas, ordena as hiperligações das categorias para facilitar a sua leitura"
 }
