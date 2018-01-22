@@ -2,15 +2,13 @@
 /**
  * CategoryTagSorter - Sort the category tags on every article page.
  *
- *
  * @file
  * @ingroup Extensions
  *
  * @author Dan Barrett
  * @author Daniel Renfro
  *
- *
- * Copyright 2013 Vistaprint Schweiz GmbH.
+ * Copyright (C) 2013 Vistaprint Schweiz GmbH.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,66 +22,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-
-
-/**
- * This is not a valid point of entry.
- *
- */
-if ( !defined( 'MEDIAWIKI' ) ) {
-	echo <<< EOT
-		To install my extension, put the following line in Localsettings.php:
-		require_once( "\$IP/extensions/CategoryTagSorter/CategoryTagSorter.php" );
-EOT;
-	exit( 1 );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'CategoryTagSorter' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['CategoryTagSorter'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the CategoryTagSorter extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the CategoryTagSorter extension requires MediaWiki 1.29+' );
 }
-
-/**
- * Credits
- *
- */
-$wgExtensionCredits['other'][] = array(
-	'name' => 'CategoryTagSorter',
-	'author' => array(
-		'[https://www.mediawiki.org/wiki/User:Maiden_taiwan Dan Barrett]',
-		'[https://www.mediawiki.org/wiki/User:AlephNull Daniel Renfro]',
-	),
-	'url' => 'https://www.mediawiki.org/wiki/Extension:CategoryTagSorter',
-	'descriptionmsg' => 'categorytagsorter-desc',
-	'version' => '0.3.0',
-);
-
-/**
- * The body of the extension.
- *
- */
-$wgAutoloadClasses['CategoryTagSorter'] = __DIR__ . '/CategoryTagSorter_body.php';
-
-
-/**
- * Internationalization/localization
- *
- */
-$wgMessagesDirs['CategoryTagSorter'] = __DIR__ . '/i18n';
-
-
-
-/**
- * Hooks
- *
- */
-$wgHooks['ParserBeforeTidy'][] = 'CategoryTagSorter::sort';
-$wgHooks['GetPreferences'][] = 'CategoryTagSorter::prefs';
-$wgHooks['UnitTestsList'][] = 'wfCategoryTagSorterUnitTests';
-
-
-
-/**
- * Add our unit-tests to the list
- *
- */
-function wfCategoryTagSorterUnitTests( array &$files ) {
-	$files[] = dirname( __FILE__ ) . '/tests/CategoryTagSorterTest.php';
-	return true;
-} ;
