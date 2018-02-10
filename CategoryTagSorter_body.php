@@ -40,11 +40,9 @@ class CategoryTagSorter {
 	 * @return bool
 	 */
 	public static function sort( Parser $parser, $text ) {
-		wfProfileIn( __METHOD__ );
 		if ( is_null( $parser->getUser()->getOption( self::PREF_NAME ) ) ) {
 			ksort( $parser->getOutput()->getCategories() );
 		}
-		wfProfileOut( __METHOD__ );
 		return true;
 	}
 
