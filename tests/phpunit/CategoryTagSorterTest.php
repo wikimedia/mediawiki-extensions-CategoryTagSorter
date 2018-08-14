@@ -30,36 +30,36 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 
 	const TEST_PAGENAME = 'UnitTestingArticle';
 
-	static $categoriesWikitext = array(
+	static $categoriesWikitext = [
 		'[[Category:ZZZ]]',
 		'[[Category:.NET collections]]',
 		'[[Category:SiteBuilder]]',
 		'[[Category:Wiki regression tests]]',
 		'[[Category:Google Mini]]',
 		'[[Category:Architecture]]'
-	);
+	];
 
 	/**
 	 * Note: Notice the spaces have been changed to underscores,
 	 *       and the categories are the keys of the array.
 	 */
-	static $categoriesInOrder = array(
+	static $categoriesInOrder = [
 		'.NET_collections'      => '',
 		'Architecture'          => '',
 		'Google_Mini'           => '',
 		'SiteBuilder'           => '',
 		'Wiki_regression_tests' => '',
 		'ZZZ'                   => ''
-	);
+	];
 
-	static $categoriesOutOfOrder = array(
+	static $categoriesOutOfOrder = [
 		'ZZZ'                   => '',
 		'.NET_collections'      => '',
 		'SiteBuilder'           => '',
 		'Wiki_regression_tests' => '',
 		'Google_Mini'           => '',
 		'Architecture'          => '',
-	);
+	];
 
 	// ------ helper methods ------------------------------------------------
 
@@ -103,7 +103,7 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 			$actualIterator->next();
 			$expectedIterator->next();
 		}
-		return array( $isSortedCorrectly, $message );
+		return [ $isSortedCorrectly, $message ];
 	}
 
 

@@ -57,11 +57,11 @@ class CategoryTagSorter {
 	 * @return bool
 	 */
 	public static function prefs( User $user, array &$prefs ) {
-		$prefs[self::PREF_NAME] = array(
+		$prefs[self::PREF_NAME] = [
 			'type' => 'toggle',
 			'section' => 'rendering/advancedrendering',
 			'label-message' => 'tog-categorysortdisable',
-		);
+		];
 		return true;
 	}
 
