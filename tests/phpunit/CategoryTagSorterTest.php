@@ -22,9 +22,7 @@
  */
 class CategoryTagSorterTest extends MediaWikiTestCase {
 
-
 	// ------ properties ------------------------------------------------
-
 
 	const TEST_USERNAME = 'UnitTestor';
 
@@ -62,7 +60,6 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	];
 
 	// ------ helper methods ------------------------------------------------
-
 
 	/**
 	 * Compares the keys and values of two arrays making sure the order
@@ -106,7 +103,6 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 		return [ $isSortedCorrectly, $message ];
 	}
 
-
 	/**
 	 * Get an instance of the parser;
 	 *
@@ -120,11 +116,7 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 		return new $class( $wgParserConf );
 	}
 
-
-
-
 	// ------ tests ----------------------------------------------------------
-
 
 	/**
 	 * Makes sure the sorting is done correctly
@@ -159,7 +151,6 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 		);
 		$this->assertTrue( $isSortedCorrectly, $message );
 	}
-
 
 	/**
 	 * The user-preference turns off this extension's behaviour. This means that
@@ -199,6 +190,5 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 		$this->assertTrue( $isSortedCorrectly, $message );
 
 	}
-
 
 }

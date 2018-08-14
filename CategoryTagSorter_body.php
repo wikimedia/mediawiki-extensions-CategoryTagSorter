@@ -19,16 +19,13 @@
  *
  */
 
-
 /**
  * CategoryTagSorter - sorts categories for easy reading
  *
  */
 class CategoryTagSorter {
 
-
 	const PREF_NAME = 'categorysortdisable';
-
 
 	/**
 	 * Sorts the categories ascii-betically
@@ -45,7 +42,6 @@ class CategoryTagSorter {
 		}
 		return true;
 	}
-
 
 	/**
 	 * Adds a user-preference to turn off this extension's behaviour
