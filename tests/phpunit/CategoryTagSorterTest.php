@@ -151,11 +151,11 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 		$this->assertCount(
 			count( self::$categoriesInOrder ),
 			$parsedCategories
-	   	);
+		);
 
 		list( $isSortedCorrectly, $message ) = $this->compareTwoArrays(
 			self::$categoriesInOrder,
-		 	$parsedCategories
+			$parsedCategories
 		);
 		$this->assertTrue( $isSortedCorrectly, $message );
 	}
@@ -190,11 +190,11 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 		$this->assertCount(
 			count( self::$categoriesOutOfOrder ),
 			$parsedCategories
-	   	);
+		);
 
 		list( $isSortedCorrectly, $message ) = $this->compareTwoArrays(
 			self::$categoriesOutOfOrder,
-		 	$parsedCategories
+			$parsedCategories
 		);
 		$this->assertTrue( $isSortedCorrectly, $message );
 
