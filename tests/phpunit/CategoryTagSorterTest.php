@@ -188,7 +188,6 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 			$parsedCategories
 		);
 		$this->assertTrue( $isSortedCorrectly, $message );
-
 	}
 
 }
