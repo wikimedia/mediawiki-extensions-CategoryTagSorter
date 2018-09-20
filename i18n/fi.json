@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"01miki10"
 		]
 	},
-	"tog-categorysortdisable": "Älä lajittele luokkalinkkejä sivuille (näyttö MediaWikin oletusjärjestyksessä)"
+	"tog-categorysortdisable": "Älä lajittele luokkalinkkejä sivuille (näyttö MediaWikin oletusjärjestyksessä)",
+	"categorytagsorter-desc": "Lajittelee luokkalinkit sivua näytettäessä lukemisen helpottamiseksi"
 }
