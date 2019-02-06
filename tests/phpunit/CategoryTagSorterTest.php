@@ -67,7 +67,7 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	 *
 	 * @param array $a
 	 * @param array $b
-	 * @access protected
+	 * @protected
 	 * @return array
 	 */
 	protected function compareTwoArrays( array $a, array $b ) {
@@ -106,7 +106,6 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	/**
 	 * Get an instance of the parser;
 	 *
-	 * @access public
 	 * @return Parser
 	 */
 	protected function getNewParser() {
@@ -121,7 +120,6 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	/**
 	 * Makes sure the sorting is done correctly
 	 *
-	 * @access public
 	 * @return void
 	 */
 	public function testSortIsCorrect() {
@@ -156,7 +154,6 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	 * The user-preference turns off this extension's behaviour. This means that
 	 * the sorting should remain in the order written in the wikitext.
 	 *
-	 * @access public
 	 * @return void
 	 */
 	public function testPreferencesIsRespected() {

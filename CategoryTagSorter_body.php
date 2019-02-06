@@ -33,7 +33,6 @@ class CategoryTagSorter {
 	 * @param Parser $parser
 	 * @param mixed $text
 	 * @static
-	 * @access public
 	 * @return bool
 	 */
 	public static function sort( Parser $parser, $text ) {
@@ -49,7 +48,6 @@ class CategoryTagSorter {
 	 * @param User $user
 	 * @param array $prefs
 	 * @static
-	 * @access public
 	 * @return bool
 	 */
 	public static function prefs( User $user, array &$prefs ) {
