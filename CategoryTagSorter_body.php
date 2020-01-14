@@ -36,7 +36,7 @@ class CategoryTagSorter {
 	 * @return bool
 	 */
 	public static function sort( Parser $parser, $text ) {
-		if ( is_null( $parser->getUser()->getOption( self::PREF_NAME ) ) ) {
+		if ( $parser->getUser()->getOption( self::PREF_NAME ) === null ) {
 			ksort( $parser->getOutput()->getCategories() );
 		}
 		return true;
