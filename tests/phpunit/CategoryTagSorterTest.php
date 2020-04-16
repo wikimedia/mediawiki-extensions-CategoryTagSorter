@@ -15,6 +15,8 @@
  * limitations under the License.
  */
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * @group Extensions
  * @group VistaprintExtensions
@@ -109,10 +111,8 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	 * @return Parser
 	 */
 	protected function getNewParser() {
-		global $wgParserConf;
-
-		$class = $wgParserConf['class'];
-		return new $class( $wgParserConf );
+		$parserFactory = MediaWikiServices::getInstance()->getParserFactory();
+		return $parserFactory->create();
 	}
 
 	// ------ tests ----------------------------------------------------------
