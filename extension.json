@@ -21,7 +21,7 @@
 		"CategoryTagSorter": "CategoryTagSorter_body.php"
 	},
 	"Hooks": {
-		"ParserBeforeTidy": "CategoryTagSorter::sort",
+		"ParserAfterTidy": "CategoryTagSorter::sort",
 		"GetPreferences": "CategoryTagSorter::prefs"
 	},
 	"manifest_version": 2
