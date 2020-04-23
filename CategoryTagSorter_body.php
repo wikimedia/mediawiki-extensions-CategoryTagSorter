@@ -46,7 +46,7 @@ class CategoryTagSorter {
 	 * Adds a user-preference to turn off this extension's behaviour
 	 *
 	 * @param User $user
-	 * @param array $prefs
+	 * @param array &$prefs
 	 * @static
 	 * @return bool
 	 */
