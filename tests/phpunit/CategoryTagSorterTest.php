@@ -30,7 +30,8 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 
 	const TEST_PAGENAME = 'UnitTestingArticle';
 
-	static $categoriesWikitext = [
+	/** @var string[] */
+	private static $categoriesWikitext = [
 		'[[Category:ZZZ]]',
 		'[[Category:.NET collections]]',
 		'[[Category:SiteBuilder]]',
@@ -42,8 +43,9 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	/**
 	 * Note: Notice the spaces have been changed to underscores,
 	 *       and the categories are the keys of the array.
+	 * @var string[]
 	 */
-	static $categoriesInOrder = [
+	private static $categoriesInOrder = [
 		'.NET_collections'      => '',
 		'Architecture'          => '',
 		'Google_Mini'           => '',
@@ -52,7 +54,8 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 		'ZZZ'                   => ''
 	];
 
-	static $categoriesOutOfOrder = [
+	/** @var string[] */
+	private static $categoriesOutOfOrder = [
 		'ZZZ'                   => '',
 		'.NET_collections'      => '',
 		'SiteBuilder'           => '',

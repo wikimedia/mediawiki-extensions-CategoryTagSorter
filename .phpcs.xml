@@ -5,8 +5,6 @@
 		<exclude name="MediaWiki.Commenting.MissingCovers.MissingCovers" />
 		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch" />
 		<exclude name="PSR12.Properties.ConstantVisibility.NotFound" />
-		<exclude name="PSR2.Classes.PropertyDeclaration.ScopeMissing" />
-		<exclude name="Squiz.Scope.MemberVarScope.Missing" />
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc"/>
