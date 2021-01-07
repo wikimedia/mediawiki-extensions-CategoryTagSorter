@@ -32,7 +32,6 @@ class CategoryTagSorter {
 	 *
 	 * @param Parser $parser
 	 * @param mixed $text
-	 * @static
 	 * @return bool
 	 */
 	public static function sort( Parser $parser, $text ) {
@@ -47,7 +46,6 @@ class CategoryTagSorter {
 	 *
 	 * @param User $user
 	 * @param array &$prefs
-	 * @static
 	 * @return bool
 	 */
 	public static function prefs( User $user, array &$prefs ) {
