@@ -19,6 +19,8 @@
  *
  */
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * CategoryTagSorter - sorts categories for easy reading
  *
@@ -35,7 +37,8 @@ class CategoryTagSorter {
 	 * @return bool
 	 */
 	public static function sort( Parser $parser, $text ) {
-		if ( $parser->getUser()->getOption( self::PREF_NAME ) === null ) {
+		$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
+		if ( $userOptionsLookup->getOption( $parser->getUserIdentity(), self::PREF_NAME ) === null ) {
 			ksort( $parser->getOutput()->getCategories() );
 		}
 		return true;
