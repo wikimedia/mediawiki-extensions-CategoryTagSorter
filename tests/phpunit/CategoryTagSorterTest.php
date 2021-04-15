@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-use MediaWiki\MediaWikiServices;
-
 /**
  * @group Extensions
  * @group VistaprintExtensions
@@ -114,7 +112,7 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	 * @return Parser
 	 */
 	protected function getNewParser() {
-		$parserFactory = MediaWikiServices::getInstance()->getParserFactory();
+		$parserFactory = $this->getServiceContainer()->getParserFactory();
 		return $parserFactory->create();
 	}
 
@@ -126,10 +124,8 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	 * @return void
 	 */
 	public function testSortIsCorrect() {
-		global $wgUser;
-
-		$wgUser = User::newFromName( self::TEST_USERNAME );
-		$wgUser->load();
+		RequestContext::getMain()->setUser( User::newFromName( self::TEST_USERNAME ) );
+		RequestContext::getMain()->getUser()->load();
 
 		// Parse the "page"
 		$wikitext = implode( "\n", self::$categoriesWikitext );
@@ -137,7 +133,7 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 		$parserOutput = $parser->parse(
 			$wikitext,
 			Title::newFromText( self::TEST_PAGENAME ),
-			ParserOptions::NewFromUser( $wgUser )
+			ParserOptions::NewFromUser( RequestContext::getMain()->getUser() )
 		);
 		$parsedCategories = $parserOutput->getCategories();
 
@@ -160,13 +156,16 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 	 * @return void
 	 */
 	public function testPreferencesIsRespected() {
-		global $wgUser;
-
-		$wgUser = User::newFromName( self::TEST_USERNAME );
-		$wgUser->load();
+		RequestContext::getMain()->setUser( User::newFromName( self::TEST_USERNAME ) );
+		RequestContext::getMain()->getUser()->load();
 
 		// Turn off this extension's behaviour
-		$wgUser->setOption( CategoryTagSorter::PREF_NAME, 1 );
+		$userOptionsManager = $this->getServiceContainer()->getUserOptionsManager();
+		$userOptionsManager->setOption(
+			RequestContext::getMain()->getUser(),
+			CategoryTagSorter::PREF_NAME,
+			1
+		);
 
 		// Parse the "page"
 		$wikitext = implode( "\n", self::$categoriesWikitext );
@@ -174,7 +173,7 @@ class CategoryTagSorterTest extends MediaWikiTestCase {
 		$parserOutput = $parser->parse(
 			$wikitext,
 			Title::newFromText( self::TEST_PAGENAME ),
-			ParserOptions::NewFromUser( $wgUser )
+			ParserOptions::NewFromUser( RequestContext::getMain()->getUser() )
 		);
 		$parsedCategories = $parserOutput->getCategories();
 
