@@ -20,7 +20,7 @@
  * @group VistaprintExtensions
  * @group CategoryTagSorter
  */
-class CategoryTagSorterTest extends MediaWikiTestCase {
+class CategoryTagSorterTest extends MediaWikiIntegrationTestCase {
 
 	// ------ properties ------------------------------------------------
 
