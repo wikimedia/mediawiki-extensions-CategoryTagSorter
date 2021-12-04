@@ -18,7 +18,7 @@ behavior (and who enjoy searching aimlessly through lists of categories).
 Install this extension like any other extension, by adding a line in LocalSettings.php
 like this:
 
- require_once( "$IP/extensions/CategoryTagSorter/CategoryTagSorter.php" );
+ wfLoadExtension( 'CategoryTagSorter' );
 
 
 == See also ==
