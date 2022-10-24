@@ -19,6 +19,7 @@
  * @group Extensions
  * @group VistaprintExtensions
  * @group CategoryTagSorter
+ * @covers CategoryTagSorter
  */
 class CategoryTagSorterTest extends MediaWikiIntegrationTestCase {
 
