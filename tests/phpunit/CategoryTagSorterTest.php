@@ -139,12 +139,12 @@ class CategoryTagSorterTest extends MediaWikiIntegrationTestCase {
 		);
 		$parsedCategories = $parserOutput->getCategories();
 
-		$this->assertCount(
-			count( self::$categoriesInOrder ),
+		$this->assertSameSize(
+			self::$categoriesInOrder,
 			$parsedCategories
 		);
 
-		list( $isSortedCorrectly, $message ) = $this->compareTwoArrays(
+		[ $isSortedCorrectly, $message ] = $this->compareTwoArrays(
 			self::$categoriesInOrder,
 			$parsedCategories
 		);
@@ -179,12 +179,12 @@ class CategoryTagSorterTest extends MediaWikiIntegrationTestCase {
 		);
 		$parsedCategories = $parserOutput->getCategories();
 
-		$this->assertCount(
-			count( self::$categoriesOutOfOrder ),
+		$this->assertSameSize(
+			self::$categoriesOutOfOrder,
 			$parsedCategories
 		);
 
-		list( $isSortedCorrectly, $message ) = $this->compareTwoArrays(
+		[ $isSortedCorrectly, $message ] = $this->compareTwoArrays(
 			self::$categoriesOutOfOrder,
 			$parsedCategories
 		);
