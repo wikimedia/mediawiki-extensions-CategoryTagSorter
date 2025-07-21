@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
-	"tog-categorysortdisable": "Kategorielinken op de Säiten net zortéieren (an der Standard-MediaWiki-Reiefolleg weisen)",
+	"tog-categorysortdisable": "Kategorielinken op de Säiten net sortéieren (an der Standard-MediaWiki-Reiefolleg weisen)",
 	"categorytagsorter-desc": "Zortéiert d'Kategorie-Linken wann eng Säit fir 'einfach' ze liese gewise gëtt"
 }
