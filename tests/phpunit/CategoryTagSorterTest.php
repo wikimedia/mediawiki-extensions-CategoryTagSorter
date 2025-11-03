@@ -15,6 +15,8 @@
  * limitations under the License.
  */
 
+use MediaWiki\Title\Title;
+
 /**
  * @group Extensions
  * @group VistaprintExtensions
