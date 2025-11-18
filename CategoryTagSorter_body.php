@@ -23,7 +23,6 @@ use MediaWiki\MediaWikiServices;
 
 /**
  * CategoryTagSorter - sorts categories for easy reading
- *
  */
 class CategoryTagSorter {
 
